@@ -6,6 +6,7 @@ HackCU 2017
 virtualenv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
+python manage.py migrate
 ```
 And you're good to go! Open another terminal and print this
 ```bash
